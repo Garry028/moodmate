@@ -11,7 +11,6 @@ interface StatsViewProps {
 
 export default function StatsView({
   entries,
-  theme,
   contentBg,
   textColor,
   secondaryTextColor,
