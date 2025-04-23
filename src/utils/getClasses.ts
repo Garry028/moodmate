@@ -1,20 +1,4 @@
-// const bgColor =
-//     theme === "dark"
-//         ? "bg-gray-900"
-//         : "bg-gradient-to-b from-orange-200 to-orange-100";
-// const cardBg = theme === "dark" ? "bg-gray-800" : "bg-orange-300";
-// const contentBg = theme === "dark" ? "bg-gray-700" : "bg-orange-50";
-// const textColor = theme === "dark" ? "text-gray-100" : "text-gray-800";
-// const secondaryTextColor =
-//     theme === "dark" ? "text-gray-300" : "text-gray-600";
-// const buttonBg = theme === "dark" ? "bg-blue-600" : "bg-orange-400";
-// const buttonHoverBg =
-//     theme === "dark" ? "hover:bg-blue-700" : "hover:bg-orange-500";
-// const buttonTextColor = "text-white";
-// const navButtonBg = theme === "dark" ? "bg-gray-700" : "bg-orange-200";
-
 import { ThemeMode } from "../types";
-
 export const getClasses = (theme: ThemeMode) => {
     return {
         bgColor: theme === "dark" ? "bg-gray-900" : "bg-gradient-to-b from-orange-200 to-orange-100",
